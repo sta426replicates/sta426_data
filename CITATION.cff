@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this module, please cite it and the original dataset as below."
+title: "sta425_data: Schurch et al. (2016) yeast WT vs snf2 RNA-seq counts"
+abstract: >-
+  Omnibenchmark data module. Exports the highly replicated S. cerevisiae
+  wild-type vs snf2 RNA-seq count matrix of Schurch et al. (2016), as distributed
+  by the Bioconductor package HighlyReplicatedRNASeq, as a raw count table and
+  sample sheet.
+authors:
+  - given-names: "FIRSTNAME"
+    family-names: "LASTNAME"
+license: MIT
+version: 0.1.0
+references:
+  - type: article
+    title: "How many biological replicates are needed in an RNA-seq experiment and which differential expression tool should you use?"
+    authors:
+      - family-names: Schurch
+        given-names: Nicholas J.
+      - name: "et al."
+    journal: RNA
+    year: 2016
+    volume: 22
+    issue: 6
+    start: 839
+    end: 851
+    doi: 10.1261/rna.053959.115
+  - type: software
+    title: HighlyReplicatedRNASeq
+    authors:
+      - family-names: Ahlmann-Eltze
+        given-names: Constantin
+    url: https://bioconductor.org/packages/HighlyReplicatedRNASeq
